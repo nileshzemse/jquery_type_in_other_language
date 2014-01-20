@@ -60,5 +60,8 @@ Copyright (c) 2014 Nilesh Zemse
 Licensed under the MIT and GPLv3 license
 
 ```
+Github URL: https://github.com/nileshzemse/jquery_type_in_other_language
+
+```
 Reference URL:
 https://developers.google.com/transliterate/v1/getting_started#hiworld
