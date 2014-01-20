@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Jquery practice - type in  other language</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.0/jquery.min.js"></script>
+        
+        <!-- Plugin code starts -->
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript" src="typeInOtherLanguage.js"></script>
+        
+        <!-- Plugin code ends -->
+        
+        <script>
+
+        $(document).ready(function(){
+          
+        // put ids of text area onto array, 
+        // when user would be able to type in other language in these text-area fields.  
+        
+        arr_input_ids = new Array("txt_msg1", "txt_msg2");
+        
+            $( this ).typeInOtherLanguage(
+                {
+                "language":"MARATHI",
+                "font_size":15,
+                "arr_input_ids" : arr_input_ids,
+                }
+            );
+            
+        });       
+      
+        </script>
+        
+       
+    </head>
+    <body>
+        
+        <div>Type in other language</div>
+        <br><br>        
+        <form method="post">
+            
+        <div class="PD10"><input type="checkbox" checked id="checkboxId"></input>Type in Marathi* (You can also use Cntl+g to switch between regional language and english.)</div>
+        <div><textarea rows="5" cols="45" name="txt_msg1" id="txt_msg1"></textarea></div>
+        
+        <div class="PD10"><br>Comment*</div>
+        <div><textarea rows="5" cols="45" name="txt_msg2" id="txt_msg2"></textarea></div>
+        
+        <div class="PD10"><br>Comment in English*</div>
+        <div><textarea rows="5" cols="45" name="txt_msg3" id="txt_msg3"></textarea></div>
+        
+        <div class="PD10"><br><input type="Submit"></div>
+        </form>
+        <div class="PD10">
+                        Supported languages are: <br>AMHARIC, ARABIC, BENGALI, CHINESE, GREEK, GUJARATI, HINDI, KANNADA, MALAYALAM, MARATHI, NEPALI
+                        <br>ORIYA, PERSIAN, PUNJABI, RUSSIAN, SANSKRIT, SERBIAN, SINHALESE, TAMIL, TELUGU, TIGRINYA, URDU
+                        <br> <br>
+                        In this plugin, I have given support for only 3 languages - MARATHI, TAMIL and GUJARATI
+                        <br>
+                        To add support to other languages as well, then edit the js file - typeInOtherLanguage.js
+                        <br>
+                        add cases as explained in the comment at line number - 17 to 21
+                        <br><br>
+                        Ref. URL: https://developers.google.com/transliterate/v1/getting_started#hiworld
+                        <br>
+                        <br>Make sure, the database and the table in which you are going to save the data has utf8 "Collation" (database - utf8_bin | table - utf8_unicode_ci)
+                        <br>because of which you would be able to save utf encoded data into database!!!
+        </div>
+        
+    </body>
+</html>
