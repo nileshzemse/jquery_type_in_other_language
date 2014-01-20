@@ -1,6 +1,6 @@
 ## <a id="Introduction"></a>Introduction
 
-**typeInOtherLanguage** is a jQuery plugin to allow users to type in other languages like Marathi, Tamil, Gujarati, etc.
+**typeInOtherLanguage** is a jQuery plugin that allows users to type in other languages like Marathi, Tamil, Gujarati, etc.
 
 ## Getting Started
 
