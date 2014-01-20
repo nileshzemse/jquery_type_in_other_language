@@ -1,9 +1,6 @@
-jquery Plugin - typeInOtherLanguage
-=============================
+JQuery plugin - typeInOtherLanguage - that uses google api that allows user to type in other languages like Marathi, Tamil, Gujarati, etc.
 
-JQuery plugin that uses google api that allows user to type in other languages like Marathi, Tamil, Gujarati, etc.
-
-[jquery-typeInOtherLanguage Plugin] jQuery plugin to enable to type in other language in text fields.
+It is a jQuery plugin that enables user to type in other language in text fields.
 ===============================
 
 ## <a id="Introduction"></a>Introduction
