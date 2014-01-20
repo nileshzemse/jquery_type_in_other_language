@@ -47,8 +47,8 @@ include plugin file
             
         });       
       
-        </script>
-```
+</script>
+
 
 ``` Demo
 run the file demo.html to try the plugin.
