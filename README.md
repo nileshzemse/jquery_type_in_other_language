@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-Include jQuery, the plugin's JS file on a page. Add a textbox or textarea fields in your form. 
+Include jQuery, the plugin's JS file, google's transliteration library on a page. Add a textbox or textarea fields in your form. 
 Give id to these fields.
 
 Then call the `typeInOtherLanguage` method with the required options
