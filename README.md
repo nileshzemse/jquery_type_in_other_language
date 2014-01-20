@@ -48,15 +48,18 @@ include plugin file
         });       
       
 </script>
-
+ 
+```
 
 ``` Demo
-run the file demo.html to try the plugin.
+run the file demo.html or index.html to try the plugin.
 
 ## <a id="License"></a>License
 
 Copyright (c) 2014 Nilesh Zemse
 Licensed under the MIT and GPLv3 license.
+
+```
 
 ``` Reference URL:
 https://developers.google.com/transliterate/v1/getting_started#hiworld
