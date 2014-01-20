@@ -60,6 +60,5 @@ Copyright (c) 2014 Nilesh Zemse
 Licensed under the MIT and GPLv3 license.
 
 ```
-
 ``` Reference URL:
 https://developers.google.com/transliterate/v1/getting_started#hiworld
