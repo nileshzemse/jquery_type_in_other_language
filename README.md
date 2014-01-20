@@ -57,7 +57,7 @@ run the file demo.html or index.html to try the plugin.
 ## <a id="License"></a>License
 
 Copyright (c) 2014 Nilesh Zemse
-Licensed under the MIT and GPLv3 license.
+Licensed under the MIT and GPLv3 license
 
 ```
 ``` Reference URL:
